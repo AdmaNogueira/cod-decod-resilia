@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+          <label class="desc" id="title4" for="Field4">
+            Mensagem
+          </label>
+          <div>
+            <textarea id="mensagem" name="mensagem" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+          </div>
+        </div>
+        <div>
+            <label for="incremento">Incremento Cifra Cesar:</label>
+            <input type="text" id="incremento" name="incremento"><br><br>
+        </div>
+        <div>
+            <fieldset>
+              <legend id="title6" class="desc">
+                Selecione um método
+              </legend>
+              <div>
+              <div>
+                <select name="metodo" id="metodo">
+                  <option value="cifraDeCesar">Cifra de César</option>
+                  <option value="base64">Base64</option>
+                </select>
+              </span>
+              </div>
+            </fieldset>
+          </div>
+
+        <div>
+          <fieldset>
+          
+            <legend id="title5" class="desc">
+              Selecione uma ação
+            </legend>
+            
+            <div>
+                <input id="radioDefault_5" name="Field5" type="hidden" value="">
+                <div>
+                    <input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5" checked="checked">
+                    <label class="choice" for="Field5_0">Codificar</label>
+                </div>
+              <div>
+                  <input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
+                  <label class="choice" for="Field5_1">Decodificar</label>
+              </div>
+
+          </fieldset>
+        </div>
+        
+        <div>
+              <div>
+                <input id="codificar" name="saveForm" type="submit" value="Codificar Mensagem!">
+          </div>
+          </div>
+
+          <div>
+            <div>
+              <input id="decodificar" name="saveForm" type="submit" value="Decodificar Mensagem!">
+        </div>
+        </div>
+        <div>
+            <label for="resultado">Resultado:</label>
+            <input type="text" id="resultado" name="resultado"><br><br>
+        </div>
+      </form>
+
+      <script text="text/JavaScript" src="index.js"> </script>
+</body>
+</html>
